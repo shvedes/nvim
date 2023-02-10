@@ -1,0 +1,15 @@
+require("toggleterm").setup{
+  size = 15,
+  open_mapping = [[<c-\>]],
+  hide_numbers = false,
+  autochdir = false,
+  shade_terminals = false,
+  start_in_insert = true,
+  insert_mappings = true,
+  terminal_mappings = true,
+  persist_size = true,
+  persist_mode = true,
+  direction = 'horizontal',
+  close_on_exit = true,
+  auto_scroll = true,
+}
